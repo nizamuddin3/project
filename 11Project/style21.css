@@ -1,0 +1,192 @@
+.flat1{
+	border: solid 1.5px rgb(209, 224, 224);
+	border-radius: 5px 5px 0px 0px;
+	width: 100%;
+	background-color: rgb(209, 224, 224);
+}
+.tab1{
+	margin: -5.85% 39%;
+	color: rgb(255, 51, 0);
+}
+.flat1 h1{/*
+	margin-top: -4.5%;
+	margin-left: 10%;*/
+	font-size: 250%;
+	color: black;
+	font-family:"Optima"; 
+}
+.flat2{
+	border: solid 1.5px rgb(0, 40, 77);/*
+	border-radius: 0px 0px 5px 5px;*//*
+	height: 170px;*/
+	width: 100%;
+	background-color: rgb(0, 40, 77);
+}
+.flat2 p:hover{
+	background-color: orange;
+	color: black;
+
+}
+.flat2 div{
+	flex-wrap: wrap;
+	flex-direction: row;
+	display: flex;/*
+	justify-content: space-around;*/
+	text-align: center;
+	color: white;
+	font-family: "Lucida Console", Courier, monospace;
+}
+.kk1{
+	text-align: center;
+	width: 40%;
+	margin-left: 15%;
+	border: 1px skyblue solid;/*
+	height: 50px;*/
+	border-radius: 10px;/*
+	width: 50%;*//*
+	padding: 1%;
+	margin-left: 25%;*//*
+	padding-top: -5%;
+	margin-top: 2.5%;*/
+	background-color: skyblue;
+}
+/*.kk1 p{
+	color: black;
+	font-family: font-family: "Lucida Console", Courier, monospace;
+	transition: all 0.5s ease;ease,linear,ease-in-out
+	opacity: 1;
+	width:90%;
+	height: 230px;
+}*/
+.kk6{
+	color: white;
+	font-family: "Lucida Console", Courier, monospace;
+	background-color: rgb(0, 40, 77);
+	border: 1px solid rgb(0, 40, 77);
+	height: 13px;
+	padding-left:42%;
+}
+.kk1 button{
+	border-radius: 5px;
+	border-color: orange;
+	background-color: orange;/*
+	height: 45px;*/
+	padding-top: 1.2%;
+	font-size: 100%;
+}
+.kk4{
+	font-family:"Lucida Console", Courier, monospace;
+	padding-top: 1%;
+}
+
+.flat2 p{
+	font-size: 130%;
+	margin-top: 1%;
+}
+.flat2 p:hover{
+	background-color: skyblue;
+	color: rgb(0, 40, 77);
+	cursor: pointer;
+}
+.kk{
+	padding: -10%;
+	font-size: 80%;
+	border-radius: 5px;
+	border-color: rgb(0, 40, 77);
+	size: 30%;
+	height: 35px;
+	margin-top: 0.3%;
+}
+.flat3{
+	border:solid 1px rgb(0, 40, 77);
+	width: 100%; 
+	justify-content: space-around;
+	background-color: rgb(0, 40, 77);
+}
+.flat3 div{
+	border: 1px white solid;
+	border-radius: 5px;
+	width: 21%;
+	background-color: white;
+	margin: 6%;/*
+	height: 280px;*/
+	text-align: center;
+}
+.flat3 img{
+	width: 60%;
+	height: 90px;
+	padding: 5%;
+}
+.flat3 img:hover{
+	transition: all 0.5s linear;/*ease,linear,ease-in-out*/
+	/*opacity: 1;*/
+	width: 90%;
+	height: 150px;
+	cursor: pointer;
+}
+.flat3{
+	flex-wrap: wrap;
+	flex-direction: row;
+	display: flex;
+}
+.kk5{
+	font-size: 100%;
+	font-family: "Lucida Console", Courier, monospace; 
+}
+footer{
+	background-color: grey;
+	color: white;
+	width: 100%;
+	border: grey 2px solid;
+	border-radius: 3px;
+	text-align: center;
+}
+body{
+	background-color: rgb(0, 40, 77);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	body{
+		background-color: rgb(0, 40, 77);
+	}
+	.flat1 img{
+		width: 50%;
+	}
+	.kk1{
+		margin-left: 25%;
+		width: 55%;
+	}
+	.flat3 div{
+		width: 35%;/*
+		margin-left: 25%;*/
+		height: 300px; 
+	}
+	.flat3{
+		justify-content: space-around;
+	}
+}
+
+/*MOBILE MODE*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	body{
+		background-color: grey;
+	}
+	.flat3{
+		flex-wrap: wrap;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+	}
+	.flat3 div{
+		width: 85%;
+	}
+	.flat1 img{
+		width: 80%;
+		margin-left: 2%;
+	}
+	.kk1{
+		width: 70%;
+	}
+}
+
+/*Desktop or laptop Mode*/

@@ -1,0 +1,140 @@
+.op{
+	border: 2px solid white;
+	width: 100%;/*
+	height: 60px;*/
+	flex-wrap: wrap;
+	flex-direction: row;
+	display: flex;
+	text-align: center;
+}
+/*.qw1{
+	border: 1px solid rgb(255, 102, 0);
+	height: 60px;
+	border-radius: 5px;
+	width: 12%;
+	background-color: rgb(255, 102, 0);
+	margin-top:-5%;
+	margin-left: 35%;
+	font-family: Arial;
+	font-size: 90%;
+	size: 150%;
+}
+.qw2{
+	border: 1px solid rgb(255, 102, 0);
+	height: 60px;
+	border-radius: 5px;
+	width: 12%;
+	background-color:rgb(255, 102, 0);
+	margin-top:-5%;
+	margin-left: 5%;
+	font-family: Arial;
+	font-size: 90%;
+}*/
+.op img{
+	width: 30%;
+	height: 70px;
+}
+.op p{
+	font-size: 150%;
+	padding-top: -3%;
+}
+.kk{
+	border:1px solid rgb(255, 173, 51);
+	border-radius: 10px;
+	height: 60px;
+	margin-top:0.4%;
+	background-color: rgb(255, 173, 51);
+}
+.op2{/*
+	border-radius:2px solid rgb(255, 173, 51);
+	height: 50px;
+	width: 20%;
+	border-radius: 20px
+	background-color: rgb(255, 163, 26);
+	font-size: 110%;
+	font-family: Courier;*/
+
+}
+footer{
+	background-color: rgb(173, 173, 133);
+	border:1px solid rgb(173, 173, 133);
+	height: 70px;
+	border-radius: 10px;
+	width: 100%;
+	font-size: 150%;
+	padding-top: 2%;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	body{
+		background-color: white;
+	}
+	.op{
+		border-color: white;
+		flex-wrap: wrap;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+	}
+	.op p{
+		color: black;
+	}
+	.op4{
+		width: 100%;
+		height: 300px;
+		margin-left: -12%;
+	}
+	.op2{
+		margin-top: -55%;
+		font-size: 50%; 
+	}
+	.op3{
+		font-size: 50%;
+		margin-top: -10%;
+	}
+	.op12{
+		height: 160px;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	body{
+		background-color: white;
+	}
+	.op1{
+		width: 50%;
+	}
+/*	.op2{
+		margin-top: -5%;
+	}*/
+	.op4{
+		width: 100%;
+		height: 300px;
+		margin-left: -12%;
+	}
+	.op2{
+		margin: -19.8% 25%;
+		font-size: 50%; 
+	}
+	.op3{
+		margin-top: 19%;
+	}
+	.qw1{
+		margin-top: -29%;
+		margin-left: 28%;
+	}
+	.qw2{
+		margin-top: -15%;
+	}
+	.op4{
+		padding-top: 2%;
+	}
+	.op12{
+		height: 200px;
+	}
+	/*
+	.op3{
+		font-size: 50%;
+		margin-top: -10%;
+	}*/
+}
